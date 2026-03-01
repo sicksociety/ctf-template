@@ -1,0 +1,24 @@
+name: "web_attack_forensics"
+author: "sicksociety"
+category: forensics
+description: |-
+  the attacker didn't need to use anti-foresics techniques i have done it for them 
+  
+  `$ nc securinets.com 8998`
+  
+  
+  **author**: sicksociety
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+flags:
+  -Securinets{hardcoded_credentials_are_a_security_risk} 
+tags: 
+  - meduim
+files: 
+  - handout/file.txt
+state: visible
+version: "0.1"

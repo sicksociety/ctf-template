@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build: .
+    container_name: jumpy
+    user: ctf
+    working_dir: /home/ctf
+    ports:
+      - "8998:8998"
+    read_only: true
